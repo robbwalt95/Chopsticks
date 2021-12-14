@@ -20,23 +20,17 @@ public class Bot {
 
         int[] hold = new int[4];
 
+        //difficulty
         if (diff.equals("2")){
             hold = easyDiff();
         } else if ((diff.equals("3"))){
             hold = medDiff();
-
         } else if ((diff.equals("4"))) {
             hold = hardDiff();
         }
-
-
         return hold;
-
-
-
-
     }
-
+    //easy - hit
     public int[] easyDiff() {
 
         int[] hold = new int[4];;
@@ -88,7 +82,7 @@ public class Bot {
         return hold;
     }
 
-
+    //medium - hit + split
     public int[] medDiff() {
 
         int[] hold = new int[4];
@@ -161,7 +155,7 @@ public class Bot {
 
 
     }
-
+    //hard - hit + split + knockouts
     public int[] hardDiff() {
 
 

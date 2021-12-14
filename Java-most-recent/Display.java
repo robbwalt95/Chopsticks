@@ -9,6 +9,7 @@ public class Display {
     }
 
     public void displayBoard(){
+        //board to display
         String string1 = String.format("Team A---%o %o---------\n", w, x);
         String string2 = String.format("---------%o %o---Team B", y, z);
         System.out.print("\n\n");
