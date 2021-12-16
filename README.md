@@ -1,4 +1,4 @@
-# Chopsticks Hand Game [Java]
+# Chopsticks Hand Game
 ![Updated Badge](https://badges.pufler.dev/updated/puf17640/git-badges)
 ![Language Badge](https://img.shields.io/badge/Language-Java-orange)
 ![Status Badge](https://img.shields.io/badge/Status-Finished-blue)
